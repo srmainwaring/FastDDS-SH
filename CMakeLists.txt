@@ -134,7 +134,7 @@ if(BUILD_LIBRARY)
                 -DBUILD_SHARED_LIBS:BOOL=ON
                 -DCMAKE_BUILD_TYPE:STRING=${CMAKE_BUILD_TYPE}
                 -DCMAKE_TOOLCHAIN_FILE:PATH=${CMAKE_TOOLCHAIN_FILE}
-                -DTHIRDPARTY:BOOL=ON
+                -DTHIRDPARTY:BOOL=OFF
                 -DSECURITY:BOOL=OFF #${SOSS-DDS_SECURITY_PROFILE}
             DEPENDS
                 foonathan_memory
